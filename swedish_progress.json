@@ -26,7 +26,7 @@
       "duration": 10,
       "topic": "Haga Introduction",
       "summary": "Meeting neighbor Anders in Haga. Explaining the move from London.",
-      "transcript": "Anders: Hej! Är du den nya grannen...?\nDan: Hej Anders, trevligt att träffas åckso! Precis, jag heter Daniel och jag kommer fron London. Jag ska flyttar till Goteborg po August.\nBondy (Debrief): Spotted issues with 'också', 'från', 'på', and 'augusti'."
+      "transcript": "Anders: Hej! Är du den nya grannen som flyttar in i nummer 12? Jag heter Anders, trevligt att träffas!\n\nDan: Hej Anders, trevligt att träffas åckso! Precis, jag heter Daniel och jag kommer fron London. Jag ska flyttar till Goteborg po August.\n\nBondy (Debrief): Spotted issues with 'också', 'från', 'på', and 'augusti'. Note on using infinitive after 'ska'.\n\nAnders: Vad roligt! Välkommen till Göteborg och Haga. Dricker du kaffe? Vi måste ta en fika någon dag!"
     }
   ],
   "vocabulary": [
