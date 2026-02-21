@@ -16,12 +16,12 @@
     }
   ],
   "vocabulary": [
-    {"sv": "Hej", "en": "Hello", "category": "Greetings"},
-    {"sv": "Tack", "en": "Thank you", "category": "Basics"},
-    {"sv": "Hur mår du?", "en": "How are you?", "category": "Greetings"},
-    {"sv": "Gôtt mos!", "en": "Great!", "category": "Gothenburg Slang"},
-    {"sv": "Hejdå", "en": "Goodbye", "category": "Greetings"},
-    {"sv": "Ursäkta", "en": "Excuse me", "category": "Politeness"},
-    {"sv": "Var snäll", "en": "Please (Be kind)", "category": "Politeness"}
+    {"sv": "Hej", "en": "Hello", "category": "Greetings", "phonetic": "Hay"},
+    {"sv": "Tack", "en": "Thank you", "category": "Basics", "phonetic": "Tahck"},
+    {"sv": "Hur mår du?", "en": "How are you?", "category": "Greetings", "phonetic": "Hoor mor doo?"},
+    {"sv": "Gôtt mos!", "en": "Great!", "category": "Gothenburg Slang", "phonetic": "Goat moos"},
+    {"sv": "Hejdå", "en": "Goodbye", "category": "Greetings", "phonetic": "Hay-daw"},
+    {"sv": "Ursäkta", "en": "Excuse me", "category": "Politeness", "phonetic": "Ur-sek-ta"},
+    {"sv": "Var snäll", "en": "Please (Be kind)", "category": "Politeness", "phonetic": "Var snell"}
   ]
 }
