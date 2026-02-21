@@ -5,14 +5,20 @@
   "daily_goal_mins": 20,
   "history": [
     {
+      "id": "h1",
       "date": "2025-05-21",
       "duration": 20,
-      "topic": "Greetings & Intro"
+      "topic": "Greetings & Intro",
+      "summary": "Initial briefing and Gothenburg basics.",
+      "transcript": "Bondy: Hej Dan!\nDan: Hej Bondy!"
     },
     {
+      "id": "h2",
       "date": "2026-02-21",
       "duration": 5,
-      "topic": "Quick Lesson: Polite Essentials"
+      "topic": "Quick Lesson: Polite Essentials",
+      "summary": "Mastering the art of saying please and excuse me.",
+      "transcript": "Dan mastered: Hejdå, Ursäkta, and Var snäll."
     }
   ],
   "vocabulary": [
@@ -23,5 +29,6 @@
     {"sv": "Hejdå", "en": "Goodbye", "category": "Greetings", "phonetic": "Hay-daw"},
     {"sv": "Ursäkta", "en": "Excuse me", "category": "Politeness", "phonetic": "Ur-sek-ta"},
     {"sv": "Var snäll", "en": "Please (Be kind)", "category": "Politeness", "phonetic": "Var snell"}
-  ]
+  ],
+  "weak_points": []
 }
