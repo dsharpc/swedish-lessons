@@ -1,0 +1,19 @@
+{
+  "user": "Dan",
+  "target_date": "2025-08-01",
+  "current_week": 1,
+  "daily_goal_mins": 20,
+  "history": [
+    {
+      "date": "2025-05-21",
+      "duration": 20,
+      "topic": "Week 1 Day 1: Greetings & Göteborg Intro"
+    }
+  ],
+  "vocabulary": [
+    {"sv": "Hej", "en": "Hello"},
+    {"sv": "Tack", "en": "Thank you"},
+    {"sv": "Hur mår du?", "en": "How are you?"},
+    {"sv": "Gôtt mos!", "en": "Great! (Literally: Good mash)"}
+  ]
+}
