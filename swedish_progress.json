@@ -19,6 +19,14 @@
       "topic": "Quick Lesson: Polite Essentials",
       "summary": "Mastering the art of saying please and excuse me.",
       "transcript": "Dan mastered: Hejdå, Ursäkta, and Var snäll."
+    },
+    {
+      "id": "h3",
+      "date": "2026-02-21",
+      "duration": 10,
+      "topic": "Haga Introduction",
+      "summary": "Meeting neighbor Anders in Haga. Explaining the move from London.",
+      "transcript": "Anders: Hej! Är du den nya grannen...?\nDan: Hej Anders, trevligt att träffas åckso! Precis, jag heter Daniel och jag kommer fron London. Jag ska flyttar till Goteborg po August.\nBondy (Debrief): Spotted issues with 'också', 'från', 'på', and 'augusti'."
     }
   ],
   "vocabulary": [
@@ -28,7 +36,8 @@
     {"sv": "Gôtt mos!", "en": "Great!", "category": "Gothenburg Slang", "phonetic": "Goat moos"},
     {"sv": "Hejdå", "en": "Goodbye", "category": "Greetings", "phonetic": "Hay-daw"},
     {"sv": "Ursäkta", "en": "Excuse me", "category": "Politeness", "phonetic": "Ur-sek-ta"},
-    {"sv": "Var snäll", "en": "Please (Be kind)", "category": "Politeness", "phonetic": "Var snell"}
+    {"sv": "Var snäll", "en": "Please (Be kind)", "category": "Politeness", "phonetic": "Var snell"},
+    {"sv": "Trevligt att träffas", "en": "Nice to meet you", "category": "Social", "phonetic": "Trev-ligt att tref-fas"}
   ],
-  "weak_points": []
+  "weak_points": ["också", "från", "på", "augusti"]
 }
