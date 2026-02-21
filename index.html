@@ -36,20 +36,37 @@
         );
 
         const SwedishApp = () => {
-            const [data] = useState({
-                user: "Dan",
-                current_week: 1,
-                streak: 1,
-                vocabulary: [
-                    { sv: "Hej", en: "Hello", category: "Greetings" },
-                    { sv: "Tack", en: "Thank you", category: "Basics" },
-                    { sv: "Hur mår du?", en: "How are you?", category: "Greetings" },
-                    { sv: "Gôtt mos!", en: "Great!", category: "Gothenburg Slang" }
-                ],
-                history: [{ date: "2025-05-21", duration: 20, topic: "Greetings & Intro" }]
-            });
+            const [data, setData] = useState(null);
+            const [loading, setLoading] = useState(true);
+
+            React.useEffect(() => {
+                fetch('swedish_progress.json')
+                    .then(response => response.json())
+                    .then(json => {
+                        setData(json);
+                        setLoading(false);
+                    })
+                    .catch(err => {
+                        console.error("Failed to load intel:", err);
+                        setLoading(false);
+                    });
+            }, []);
+
+            if (loading) return (
+                <div className="flex items-center justify-center min-h-screen bg-slate-50">
+                    <div className="text-blue-600 font-black animate-pulse uppercase tracking-widest">Loading Intel...</div>
+                </div>
+            );
+
+            if (!data) return (
+                <div className="flex items-center justify-center min-h-screen bg-slate-50">
+                    <div className="text-red-500 font-bold uppercase">Mission Failure: Data Not Found</div>
+                </div>
+            );
 
             const progressPercent = (data.history.length / 84) * 100;
+
+            const streak = data.history.length > 0 ? 1 : 0; // Simplified for now
 
             return (
                 <div className="p-4 max-w-md mx-auto space-y-4 bg-slate-50 min-h-screen antialiased">
@@ -63,7 +80,7 @@
                             <div className="mt-4 flex items-center justify-between bg-white/10 backdrop-blur-md rounded-xl p-3 border border-white/20">
                                 <div className="flex items-center gap-2">
                                     <Trophy />
-                                    <span className="font-bold text-lg">{data.streak} Day Streak</span>
+                                    <span className="font-bold text-lg">{streak} Day Streak</span>
                                 </div>
                                 <div className="text-xs font-bold bg-yellow-400 text-blue-900 px-2 py-1 rounded-full uppercase">
                                     Agent Status: Active
