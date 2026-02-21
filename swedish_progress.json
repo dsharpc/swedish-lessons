@@ -7,13 +7,21 @@
     {
       "date": "2025-05-21",
       "duration": 20,
-      "topic": "Week 1 Day 1: Greetings & Göteborg Intro"
+      "topic": "Greetings & Intro"
+    },
+    {
+      "date": "2026-02-21",
+      "duration": 5,
+      "topic": "Quick Lesson: Polite Essentials"
     }
   ],
   "vocabulary": [
-    {"sv": "Hej", "en": "Hello"},
-    {"sv": "Tack", "en": "Thank you"},
-    {"sv": "Hur mår du?", "en": "How are you?"},
-    {"sv": "Gôtt mos!", "en": "Great! (Literally: Good mash)"}
+    {"sv": "Hej", "en": "Hello", "category": "Greetings"},
+    {"sv": "Tack", "en": "Thank you", "category": "Basics"},
+    {"sv": "Hur mår du?", "en": "How are you?", "category": "Greetings"},
+    {"sv": "Gôtt mos!", "en": "Great!", "category": "Gothenburg Slang"},
+    {"sv": "Hejdå", "en": "Goodbye", "category": "Greetings"},
+    {"sv": "Ursäkta", "en": "Excuse me", "category": "Politeness"},
+    {"sv": "Var snäll", "en": "Please (Be kind)", "category": "Politeness"}
   ]
 }
