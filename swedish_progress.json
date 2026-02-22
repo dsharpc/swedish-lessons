@@ -42,79 +42,92 @@
       "category": "Greetings",
       "en": "Hello",
       "phonetic": "Hay",
-      "sv": "Hej"
+      "sv": "Hej",
+      "audio": "audio/hej.mp3"
     },
     {
       "category": "Basics",
       "en": "Thank you",
       "phonetic": "Tahck",
-      "sv": "Tack"
+      "sv": "Tack",
+      "audio": "audio/tack.mp3"
     },
     {
       "category": "Greetings",
       "en": "How are you?",
       "phonetic": "Hoor mor doo?",
-      "sv": "Hur mår du?"
+      "sv": "Hur mår du?",
+      "audio": "audio/hur_mar_du.mp3"
     },
     {
       "category": "Gothenburg Slang",
       "en": "Great!",
       "phonetic": "Goat moos",
-      "sv": "Gôtt mos!"
+      "sv": "Gôtt mos!",
+      "audio": "audio/gott_mos.mp3"
     },
     {
       "category": "Greetings",
       "en": "Goodbye",
       "phonetic": "Hay-daw",
-      "sv": "Hejdå"
+      "sv": "Hejdå",
+      "audio": "audio/hejda.mp3"
     },
     {
       "category": "Politeness",
       "en": "Excuse me",
       "phonetic": "Ur-sek-ta",
-      "sv": "Ursäkta"
+      "sv": "Ursäkta",
+      "audio": "audio/ursakta.mp3"
     },
     {
       "category": "Politeness",
       "en": "Please (Be kind)",
       "phonetic": "Var snell",
-      "sv": "Var snäll"
+      "sv": "Var snäll",
+      "audio": "audio/var_snall.mp3"
     },
     {
       "category": "Social",
       "en": "Nice to meet you",
       "phonetic": "Trev-ligt att tref-fas",
-      "sv": "Trevligt att träffas"
+      "sv": "Trevligt att träffas",
+      "audio": "audio/trevligt_att_traffas.mp3"
     },
     {
       "category": "Special Vowels",
       "en": "Train",
       "phonetic": "Tohg",
-      "sv": "Tåg"
+      "sv": "Tåg",
+      "audio": "audio/tag.mp3"
     },
     {
       "category": "Special Vowels",
       "en": "Here",
       "phonetic": "Hair",
-      "sv": "Här"
+      "sv": "Här",
+      "audio": "audio/har.mp3"
     },
     {
       "category": "Special Vowels",
       "en": "Beer",
       "phonetic": "Uhl",
-      "sv": "Öl"
+      "sv": "Öl",
+      "audio": "audio/ol.mp3"
     },
     {
       "category": "Greetings",
       "en": "Casual Hello",
       "phonetic": "Sheh-nah",
-      "sv": "Tjena"
+      "sv": "Tjena",
+      "audio": "audio/tjena.mp3"
     },
     {
       "category": "Greetings",
       "en": "Minimalist Hello",
       "phonetic": "Tya",
-      "sv": "Tja"
+      "sv": "Tja",
+      "audio": "audio/tja.mp3"
     }
   ],
   "weak_points": [

@@ -28,6 +28,7 @@
         const MessageSquare = () => <i className="lucide-message-square w-4 h-4 mr-1.5"></i>;
         const ChevronRight = () => <i className="lucide-chevron-right w-4 h-4"></i>;
         const ArrowLeft = () => <i className="lucide-arrow-left w-4 h-4 mr-2"></i>;
+        const Volume2 = () => <i className="lucide-volume-2 w-4 h-4"></i>;
 
         const Progress = ({ value }) => (
             <div className="w-full bg-slate-100 h-3 rounded-full overflow-hidden">
@@ -50,6 +51,12 @@
                     .then(j => { setData(j); setLoading(false); })
                     .catch(() => setLoading(false));
             }, []);
+
+            const playAudio = (path) => {
+                if (!path) return;
+                const audio = new Audio(path);
+                audio.play();
+            };
 
             if (loading) return <div className="flex min-h-screen items-center justify-center font-black text-blue-600 animate-pulse bg-slate-900">LOADING INTEL...</div>;
             if (!data) return <div className="flex min-h-screen items-center justify-center font-bold text-red-500 uppercase tracking-tighter bg-slate-900">Mission Failure: Data Missing</div>;
@@ -206,9 +213,20 @@
                             <div className="bg-white rounded-[2.5rem] border border-slate-100 shadow-xl overflow-hidden">
                                 <div className="divide-y divide-slate-50">
                                     {data.vocabulary.map((word, idx) => (
-                                        <div key={idx} className="px-8 py-6 flex flex-col gap-2 hover:bg-slate-50 transition-colors">
+                                        <div key={idx} className="px-8 py-6 flex flex-col gap-2 hover:bg-slate-50 transition-colors group">
                                             <div className="flex justify-between items-start">
-                                                <div className="text-2xl font-black text-slate-900 tracking-tighter leading-none">{word.sv}</div>
+                                                <div className="flex items-center gap-3">
+                                                    <div className="text-2xl font-black text-slate-900 tracking-tighter leading-none">{word.sv}</div>
+                                                    {word.audio && (
+                                                        <button 
+                                                            onClick={(e) => { e.stopPropagation(); playAudio(word.audio); }}
+                                                            className="p-1.5 rounded-full bg-blue-50 text-blue-600 opacity-0 group-hover:opacity-100 transition-all hover:bg-blue-100 active:scale-95"
+                                                            title="Play Pronunciation"
+                                                        >
+                                                            <Volume2 />
+                                                        </button>
+                                                    )}
+                                                </div>
                                                 <div className="text-[9px] font-black text-slate-300 uppercase tracking-tighter whitespace-nowrap bg-slate-100 px-2 py-1 rounded">
                                                     {word.category}
                                                 </div>
