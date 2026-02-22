@@ -1,43 +1,126 @@
 {
-  "user": "Dan",
-  "target_date": "2025-08-01",
   "current_week": 1,
   "daily_goal_mins": 20,
   "history": [
     {
-      "id": "h1",
+      "date": "2026-02-22",
+      "duration": 15,
+      "id": "h4",
+      "summary": "Mastered the three special vowels (Å, Ä, Ö) and understood the spectrum of Swedish greetings from 'Hej' to 'Tjena'.",
+      "topic": "Special Vowels & Greetings",
+      "transcript": "Bondy: Let's start with Å, Ä, and Ö.\nDan: *Practices pronunciation via audio*\nBondy: Spot on! Now, let's look at greetings: Hej, Hej hej, Hallå, Tjena, and Tja.\nDan: If the cashier makes eye contact, I'll say 'Hej'.\nBondy: Tactical choice. Correct."
+    },
+    {
       "date": "2025-05-21",
       "duration": 20,
-      "topic": "Greetings & Intro",
+      "id": "h1",
       "summary": "Initial briefing and Gothenburg basics.",
+      "topic": "Greetings & Intro",
       "transcript": "Bondy: Hej Dan!\nDan: Hej Bondy!"
     },
     {
-      "id": "h2",
       "date": "2026-02-21",
       "duration": 5,
-      "topic": "Quick Lesson: Polite Essentials",
+      "id": "h2",
       "summary": "Mastering the art of saying please and excuse me.",
+      "topic": "Quick Lesson: Polite Essentials",
       "transcript": "Dan mastered: Hejdå, Ursäkta, and Var snäll."
     },
     {
-      "id": "h3",
       "date": "2026-02-21",
       "duration": 10,
-      "topic": "Haga Introduction",
+      "id": "h3",
       "summary": "Meeting neighbor Anders in Haga. Explaining the move from London.",
+      "topic": "Haga Introduction",
       "transcript": "Anders: Hej! Är du den nya grannen som flyttar in i nummer 12? Jag heter Anders, trevligt att träffas!\n\nDan: Hej Anders, trevligt att träffas åckso! Precis, jag heter Daniel och jag kommer fron London. Jag ska flyttar till Goteborg po August.\n\nBondy (Debrief): Spotted issues with 'också', 'från', 'på', and 'augusti'. Note on using infinitive after 'ska'.\n\nAnders: Vad roligt! Välkommen till Göteborg och Haga. Dricker du kaffe? Vi måste ta en fika någon dag!"
     }
   ],
+  "target_date": "2025-08-01",
+  "user": "Dan",
   "vocabulary": [
-    {"sv": "Hej", "en": "Hello", "category": "Greetings", "phonetic": "Hay"},
-    {"sv": "Tack", "en": "Thank you", "category": "Basics", "phonetic": "Tahck"},
-    {"sv": "Hur mår du?", "en": "How are you?", "category": "Greetings", "phonetic": "Hoor mor doo?"},
-    {"sv": "Gôtt mos!", "en": "Great!", "category": "Gothenburg Slang", "phonetic": "Goat moos"},
-    {"sv": "Hejdå", "en": "Goodbye", "category": "Greetings", "phonetic": "Hay-daw"},
-    {"sv": "Ursäkta", "en": "Excuse me", "category": "Politeness", "phonetic": "Ur-sek-ta"},
-    {"sv": "Var snäll", "en": "Please (Be kind)", "category": "Politeness", "phonetic": "Var snell"},
-    {"sv": "Trevligt att träffas", "en": "Nice to meet you", "category": "Social", "phonetic": "Trev-ligt att tref-fas"}
+    {
+      "category": "Greetings",
+      "en": "Hello",
+      "phonetic": "Hay",
+      "sv": "Hej"
+    },
+    {
+      "category": "Basics",
+      "en": "Thank you",
+      "phonetic": "Tahck",
+      "sv": "Tack"
+    },
+    {
+      "category": "Greetings",
+      "en": "How are you?",
+      "phonetic": "Hoor mor doo?",
+      "sv": "Hur mår du?"
+    },
+    {
+      "category": "Gothenburg Slang",
+      "en": "Great!",
+      "phonetic": "Goat moos",
+      "sv": "Gôtt mos!"
+    },
+    {
+      "category": "Greetings",
+      "en": "Goodbye",
+      "phonetic": "Hay-daw",
+      "sv": "Hejdå"
+    },
+    {
+      "category": "Politeness",
+      "en": "Excuse me",
+      "phonetic": "Ur-sek-ta",
+      "sv": "Ursäkta"
+    },
+    {
+      "category": "Politeness",
+      "en": "Please (Be kind)",
+      "phonetic": "Var snell",
+      "sv": "Var snäll"
+    },
+    {
+      "category": "Social",
+      "en": "Nice to meet you",
+      "phonetic": "Trev-ligt att tref-fas",
+      "sv": "Trevligt att träffas"
+    },
+    {
+      "category": "Special Vowels",
+      "en": "Train",
+      "phonetic": "Tohg",
+      "sv": "Tåg"
+    },
+    {
+      "category": "Special Vowels",
+      "en": "Here",
+      "phonetic": "Hair",
+      "sv": "Här"
+    },
+    {
+      "category": "Special Vowels",
+      "en": "Beer",
+      "phonetic": "Uhl",
+      "sv": "Öl"
+    },
+    {
+      "category": "Greetings",
+      "en": "Casual Hello",
+      "phonetic": "Sheh-nah",
+      "sv": "Tjena"
+    },
+    {
+      "category": "Greetings",
+      "en": "Minimalist Hello",
+      "phonetic": "Tya",
+      "sv": "Tja"
+    }
   ],
-  "weak_points": ["också", "från", "på", "augusti"]
+  "weak_points": [
+    "också",
+    "från",
+    "på",
+    "augusti"
+  ]
 }
