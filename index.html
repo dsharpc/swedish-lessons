@@ -220,10 +220,11 @@
                                                     {word.audio && (
                                                         <button 
                                                             onClick={(e) => { e.stopPropagation(); playAudio(word.audio); }}
-                                                            className="p-1.5 rounded-full bg-blue-50 text-blue-600 group-hover:opacity-100 transition-all hover:bg-blue-100 active:scale-95"
+                                                            className="flex items-center justify-center p-2 rounded-xl bg-blue-600 text-white shadow-lg transition-all hover:bg-blue-700 hover:scale-110 active:scale-95 border-2 border-blue-400/20"
                                                             title="Play Pronunciation"
                                                         >
                                                             <Volume2 />
+                                                            <span className="ml-1.5 text-[10px] font-black uppercase tracking-tighter">Listen</span>
                                                         </button>
                                                     )}
                                                 </div>
